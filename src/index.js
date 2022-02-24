@@ -5,9 +5,9 @@ import NavBar from "./components/NavBar";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
     <NavBar />
-  </React.StrictMode>,
+  </>,
   document.getElementById("root")
 );
 

@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "./CartWidget";
 
 //Importar componentes de react-bootstrap
 import Container from "../../node_modules/react-bootstrap/Container";
@@ -7,6 +8,7 @@ import Navbar from "../../node_modules/react-bootstrap/Navbar";
 
 //Importar archivo de estilos de reac-bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
+import ItemListContainer from "../components/ItemListContainer";
 
 function NavBar() {
   return (
@@ -20,7 +22,9 @@ function NavBar() {
             <Nav.Link href="#pricing">Publicidad</Nav.Link>
           </Nav>
         </Container>
+        <CartWidget />
       </Navbar>
+      <ItemListContainer saludo="Hola Coderhouse" />
     </>
   );
 }
