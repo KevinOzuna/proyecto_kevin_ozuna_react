@@ -8,6 +8,8 @@ import Navbar from "../../node_modules/react-bootstrap/Navbar";
 
 //Importar archivo de estilos de reac-bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
+
+//Importar componente ItemListContainer
 import ItemListContainer from "../components/ItemListContainer";
 
 function NavBar() {
